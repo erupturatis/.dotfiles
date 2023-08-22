@@ -1,0 +1,3 @@
+[submodule "arch-scripts"]
+	path = arch-scripts
+	url = git@github.com:erupturatis/arch-scripts.git
