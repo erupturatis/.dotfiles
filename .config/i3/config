@@ -32,7 +32,7 @@ set $mod Mod4
 #####################
 
 # default i3 tiling mode:
-workspace_layout default
+workspace_layout stacked 
 
 #border indicator on windows:
 new_window pixel 1
@@ -288,7 +288,7 @@ set $ws10 "10"
 # you can get from xrandr command
 #workspace $ws1 output VGA-0
 #workspace $ws2 output VGA-0
-#workspace $ws3 output HDMI-0
+#workspace $ws3 output VGA-0
 #workspace $ws4 output HDMI-0
 #workspace $ws5 output HDMI-0
 
@@ -382,9 +382,9 @@ exec --no-startup-id /usr/bin/dunst
 # exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 # autotiling script
-# https://github.com/nwg-piotr/autotiling
-# `yay -S autotiling ;) (it is in AUR)
-#exec_always --no-startup-id autotiling
+
+# yay -S autotiling 
+exec_always --no-startup-id autotiling
 
 # Autostart apps as you like
 
