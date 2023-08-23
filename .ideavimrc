@@ -1,0 +1,21 @@
+Plug 'https://github.com/andymass/vim-matchup'
+Plug 'https://github.com/preservim/nerdtree'
+Plug 'https://github.com/machakann/vim-highlightedyank'
+
+set surround
+set relativenumber
+set number
+set sneak
+set matchit
+set incsearch
+
+set ignorecase
+set smartcase
+
+set hlsearch
+
+let mapleader=" "
+set easymotion
+
+map \ <Plug>(easymotion-lineforward)
+map r <Plug>(easymotion-bd-f)
