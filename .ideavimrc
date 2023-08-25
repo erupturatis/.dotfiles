@@ -19,3 +19,17 @@ set easymotion
 
 map \ <Plug>(easymotion-lineforward)
 map r <Plug>(easymotion-bd-f)
+
+sethandler <C-;> a:vim
+sethandler <C-S-;> a:vim
+sethandler <C-B> a:ide
+sethandler <C-D> a:vim
+sethandler <C-H> a:ide
+sethandler <C-L> a:ide
+sethandler <C-O> a:vim
+sethandler <C-P> a:ide
+sethandler <C-R> a:vim
+sethandler <C-S> a:ide
+sethandler <C-U> a:vim
+sethandler <C-X> a:ide
+sethandler <C-\> a:ide
