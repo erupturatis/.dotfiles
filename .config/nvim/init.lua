@@ -1,0 +1,3 @@
+require("erupturatis")
+print("hello")
+
